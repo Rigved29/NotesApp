@@ -1,0 +1,68 @@
+.centered {
+  margin: 3rem auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  background-color: #681b04;
+  color: white;
+  border-radius: 4px;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid #681b04;
+  cursor: pointer;
+}
+
+.right {
+  margin-right: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  text-decoration: none;
+
+  color: #681b04;
+  border-radius: 4px;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid #681b04;
+  cursor: pointer;
+  margin-inline: 2rem;
+}
+
+.btndelete {
+  text-decoration: none;
+  background-color: #f10707;
+  color: white;
+  border-radius: 4px;
+  padding: 0.75rem 1.5rem;
+  border: 1px solid #f10707;
+  cursor: pointer;
+  margin-inline: 2rem;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #681b04;
+  border-color: #681b04;
+  color: white;
+}
+
+.btn--flat {
+  cursor: pointer;
+  font: inherit;
+  color: #681b04;
+  border: none;
+  background-color: none;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+}
+
+.btn--flat:hover,
+.btn--flat:active {
+  background-color: #681b04;
+  color: white;
+}

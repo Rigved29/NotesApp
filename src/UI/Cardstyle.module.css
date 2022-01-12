@@ -1,0 +1,14 @@
+.card {
+  padding: 1rem;
+  margin-inline: 10rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background-color: white;
+  margin-top: 150px;
+}
+
+@media screen and (max-width: 900px) {
+  .card {
+    margin-inline: 5rem;
+  }
+}

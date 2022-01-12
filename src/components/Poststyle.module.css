@@ -1,0 +1,46 @@
+.post {
+  background-color: #351a18;
+  color: white;
+  border-radius: 6px;
+  padding: 3rem;
+  margin: 3rem auto;
+  width: 90%;
+  max-width: 40rem;
+  margin-top: 150px;
+}
+
+.post p {
+  font-size: 1.5rem;
+}
+
+.post figcaption {
+  font-style: normal;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #f1d2d2;
+}
+
+@media screen and (max-width: 500px) {
+  .post {
+    margin-top: 5rem;
+  }
+  .post p {
+    font-size: 0.8rem;
+  }
+  .post figcaption {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .post {
+    margin-top: 9rem;
+    padding: 3rem 1.5rem;
+  }
+  .post p {
+    font-size: 0.8rem;
+  }
+  .post figcaption {
+    font-size: 1rem;
+  }
+}
