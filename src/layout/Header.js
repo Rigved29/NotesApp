@@ -30,7 +30,7 @@ const Naviagtion = () => {
             </li>
 
             <li>
-              <NavLink to="/new-quote" activeClassName={styles.active}>
+              <NavLink to="/addpost" activeClassName={styles.active}>
                 Add a New Post
               </NavLink>
             </li>
