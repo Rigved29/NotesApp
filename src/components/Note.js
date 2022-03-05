@@ -1,4 +1,4 @@
-import styles from "./Poststyle.module.css";
+import styles from "./Notestyle.module.css";
 
 const post = (props) => {
   return (

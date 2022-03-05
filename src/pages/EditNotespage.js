@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import { useHistory, useParams } from "react-router-dom";
-import styles from "./Editpoststyle.module.css";
+import styles from "./EditNotestyle.module.css";
 
 const NewCommentForm = (props) => {
   const [title, setTitle] = useState("");

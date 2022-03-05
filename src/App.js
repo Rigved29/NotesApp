@@ -1,8 +1,8 @@
 import Header from "./layout/Header";
-import Allposts from "./pages/Allposts";
-import Postpage from "./pages/Postpage";
-import Addpostpage from "./pages/Addpostpage";
-import Editpost from "./pages/Editpostpage";
+import Allposts from "./pages/AllNotes";
+import Postpage from "./pages/Notepage";
+import Addpostpage from "./pages/AddNotepage";
+import Editpost from "./pages/EditNotespage";
 import { Route, Switch, Redirect } from "react-router-dom";
 
 function App() {

@@ -2,7 +2,7 @@ import { useRef, useState, Fragment } from "react";
 import { Prompt } from "react-router-dom";
 import Card from "../UI/Card";
 import LoadingSpinner from "../UI/Loader";
-import styles from "./Postformstyle.module.css";
+import styles from "./Noteformstyle.module.css";
 
 const PostForm = (props) => {
   const [isEntering, setIsEntering] = useState(false);

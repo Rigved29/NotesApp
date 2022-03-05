@@ -1,4 +1,4 @@
-import Postform from "../components/Postform";
+import Postform from "../components/Noteform";
 import { useHistory } from "react-router-dom";
 
 const NewQuotes = (props) => {

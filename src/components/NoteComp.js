@@ -1,4 +1,4 @@
-import styles from "./Postcompstyle.module.css";
+import styles from "./Notecompstyle.module.css";
 import { Link } from "react-router-dom";
 
 const PostComp = (props) => {

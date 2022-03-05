@@ -1,7 +1,7 @@
 import { Link, Route, useParams, useRouteMatch } from "react-router-dom";
 import Commentslist from "../components/Commentslist";
-import styles from "./Postpagestyle.module.css";
-import Post from "../components/Post";
+import styles from "./Notepagestyle.module.css";
+import Post from "../components/Note";
 import { useEffect, useState } from "react";
 import { useHistory } from "react-router-dom";
 
